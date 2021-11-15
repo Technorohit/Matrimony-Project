@@ -1,0 +1,138 @@
+.matchContainer {
+    background-color: rgb(228, 225, 225);
+    height: 100%;
+    background-color: #f5f6fa;
+/* margin:50px; */
+}
+
+.spotlight-container {
+    width: 260px;
+    height: 350px;
+    position: absolute;
+    margin: 50px;
+    border-radius: 5px;
+    max-width: 280px;
+    object-fit: contain;
+    background-color: #dcdde1;
+    box-shadow: 1px 1px 5px #aaaaaa, -1px 1px 5px #aaaaaa;
+
+}
+
+.online-icon {
+    display: inline-block;
+    background: rgb(35, 112, 35);
+    border-radius: 25px;
+    width: 10px;
+    height: 10px;
+}
+
+.spotlight-container-img {
+    height: 350px;
+    width: 260px;
+    object-fit: cover;
+    object-position: 10%;
+}
+
+.username {
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.basic-info-container {
+    width: 700px;
+    border-radius: 5px;
+    object-fit: contain;
+    position: absolute;
+    margin: 50px 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px #aaaaaa, -1px 1px 2px #aaaaaa;
+    float: left;
+    text-align: left;
+    padding: 20px;
+    color: #5a5959;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic-info-sec1 {
+    padding: 10px;
+    /* border: 1px solid gray; */
+}
+
+.likeFeedback {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* third component */
+.detailed-info-container {
+    width: 700px;
+    /* height: 280px; */
+    background-color: aqua;
+    border-radius: 5px;
+    object-fit: contain;
+    position: absolute;
+    margin: 270px 350px;
+    background-color: white;
+    box-shadow: 1px 1px 2px #aaaaaa, -1px 1px 2px #aaaaaa;
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab1,
+.tab2 {
+    margin: 0px 10px;
+    padding-bottom: 15px;
+}
+
+.tab1-selected {
+    border-bottom: 2px solid rgb(158, 45, 45);
+}
+
+/* font-size: 28px;
+    color: lightgray; */
+.header {
+  
+}
+.header-name{
+    font-size: 20px;
+    color: #eb4d4b;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.body>i{
+    background-color: transparent;
+    font-size: 30px;
+    color: green;
+}
+.header>i {
+    padding: 20px 20px;
+    color: #5a5959;
+}
+
+.header>.body {
+    padding: 10px 50px;
+    border-left: 1px solid;
+    margin-left: 30px;
+    font-weight: 200;
+}
+.contact-body{
+    width: 300px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 16px;
+}

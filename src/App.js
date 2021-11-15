@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import MyMatches from './Component/MyMatch/MyMatches';
+import MatchInfoBar from './Component/MatchInfoBar/MatchInfoBar'
+import NavBar from './Component/NavBar/NavBar';
+import TodayMatch from './Component/TodayMatch/TodayMatch'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <MatchInfoBar />
+      {/* <MyMatches /> */}
+      <TodayMatch />
     </div>
   );
 }

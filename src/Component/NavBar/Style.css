@@ -1,0 +1,40 @@
+nav{
+    background-color: #e74c3c;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    align-items: center;
+}
+.user{
+    height: 35px;
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    font-weight: 100;
+}
+.upgrade{
+    border:1px solid rgb(220, 212, 212);
+    border-radius: 5px;
+    align-items: center;
+    display: inline-flex;
+    color: wheat;
+    padding: 0px 5px;
+}
+.upgrade_icon{
+    height: 34px;
+    display: block;
+}
+.help{
+    color: whitesmoke;
+}
+.user_control{
+    display: inline-flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
